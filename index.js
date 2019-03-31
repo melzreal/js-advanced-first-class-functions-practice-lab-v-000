@@ -1,11 +1,8 @@
 // Code your solution in this file!
-const filterIt = function nameFilter(arr){
-  for(const name of arr){
-    console.log(name);
-  }
-};
 
 function logDriverNames(arr){
-  arr.forEach(filterIt);
+  arr.forEach(function(el){
+    console.log(el);
+  });
 
 }
