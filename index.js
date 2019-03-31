@@ -20,8 +20,13 @@ function driversByRevenue(arr){
 
 function driversByName(arr){
   let newArr = [...arr];
-  return newArr.sort((a,b) =>
+  return newArr.sort(function(a,b){ 
   const nameA = a.toUpperCase();
   const nameb = b.toUpperCase();
-   nameA > nameb ? return -1 : return 1 : return 0;
-}
+  if( nameA > nameb){ 
+    return -1 ; 
+  else {
+    return 1; 
+  }
+  return 0;
+});
