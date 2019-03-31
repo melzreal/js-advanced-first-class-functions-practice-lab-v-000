@@ -14,3 +14,7 @@ function logDriversByHometown(arr, home){
   }
   });
 }
+
+function driversByRevenue(arr){
+  
+}
