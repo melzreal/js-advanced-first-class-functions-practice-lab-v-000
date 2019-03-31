@@ -21,12 +21,13 @@ function driversByRevenue(arr){
 function driversByName(arr){
   let newArr = [...arr];
   return newArr.sort(function(a,b){
-  const nameA = a.name.toUpperCase();
-  const nameb = b.name.toUpperCase();
-  if(nameA > nameb){
+  let nameA = a.name.toUpperCase();
+  let nameB = b.name.toUpperCase();
+  if(nameA < nameB){
     return -1 ;
-  else {
+  } if (nameA > nameB) { 
     return 1;
   }
+  
   return 0;
 });
