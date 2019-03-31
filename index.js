@@ -39,6 +39,6 @@ function totalRevenue(arr){
    for(const element in arr){
      total += element.revenue[i];
    }
-   return[...adder, total];
+   return total;
  })
 }
