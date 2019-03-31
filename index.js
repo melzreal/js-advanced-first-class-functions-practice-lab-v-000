@@ -3,5 +3,5 @@ function logDriverNames(arr){
   forEach(const name in arr){
     console.log(name);
   }
-  
+
 }
