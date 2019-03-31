@@ -25,7 +25,7 @@ function driversByName(arr){
   let nameB = b.name.toUpperCase();
   if(nameA < nameB){
     return -1 ;
-  } if (nameA > nameB) { 
+  } if (nameA > nameB) {
     return 1;
   }
   
