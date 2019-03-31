@@ -6,11 +6,10 @@ function logDriverNames(arr){
   });
 }
 
-function logDriversByHometown(arr, location){
+function logDriversByHometown(arr, home){
 
   arr.forEach(function(el){
-    console.log(el);
-    if (el.location === location){
+    if (el.hometown === home){
     console.log(el.name);
   }
   });
