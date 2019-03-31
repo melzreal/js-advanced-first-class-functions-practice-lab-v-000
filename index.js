@@ -37,7 +37,7 @@ function totalRevenue(arr){
  return arr.reduce(function(adder, element, i, arr){
    let total = 0;
    for(const element in arr){
-     total += element.revenue[i];
+     total += element.revenue;
    }
    return total;
  })
