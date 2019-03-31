@@ -43,6 +43,5 @@ function totalRevenue(arr){
 function averageRevenue(arr){
   const reducer = ((accumulator, currentValue, i, arr) => accumulator + currentValue.revenue / arr.length );
 
-
  return arr.reduce(reducer,0);
 }
