@@ -28,6 +28,7 @@ function driversByName(arr){
   } if (nameA > nameB) {
     return 1;
   }
-  
+
   return 0;
 });
+}
