@@ -22,4 +22,3 @@ function driversByName(arr){
   let newArr = [...arr];
   return newArr.sort((a,b) => a.toUpperCase() - b.toUpperCase() );
 }
-
