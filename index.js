@@ -34,5 +34,5 @@ function driversByName(arr){
   }
 
 function totalRevenue(arr){
-  
+
 }
