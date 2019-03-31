@@ -6,6 +6,6 @@ const filterIt = function nameFilter(arr){
 };
 
 function logDriverNames(arr){
-  arr.forEach(nameFilter);
+  arr.forEach(filterIt);
 
 }
