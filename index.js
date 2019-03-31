@@ -16,5 +16,10 @@ function logDriversByHometown(arr, home){
 function driversByRevenue(arr){
   let newArr = [...arr];
   return newArr.sort((a,b) => a.revenue - b.revenue );
-
 }
+
+function driversByName(arr){
+  let newArr = [...arr];
+  return newArr.sort((a,b) => a.toUpperCase() - b.toUpperCase() );
+}
+
