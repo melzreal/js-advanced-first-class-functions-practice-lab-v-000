@@ -30,5 +30,9 @@ function driversByName(arr){
   }
 
   return 0;
-});
+  });
+  }
+
+function totalRevenue(arr){
+  
 }
