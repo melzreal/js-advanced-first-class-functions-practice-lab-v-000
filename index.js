@@ -2,7 +2,7 @@
 
 function logDriverNames(arr){
   arr.forEach(function(el){
-    console.log(el);
+    console.log(el.name);
   });
 
 }
